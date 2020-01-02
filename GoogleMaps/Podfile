@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GoogleMaps-App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GoogleMaps
+  pod 'RxNuke'
+  pod 'Nuke'
+  pod 'Alamofire', '~> 4.8'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'RxGoogleMaps'
+  pod 'GoogleMaps'
+end

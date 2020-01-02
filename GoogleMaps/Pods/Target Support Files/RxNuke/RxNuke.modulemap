@@ -1,0 +1,6 @@
+framework module RxNuke {
+  umbrella header "RxNuke-umbrella.h"
+
+  export *
+  module * { export * }
+}
